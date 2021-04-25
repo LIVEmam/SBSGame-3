@@ -51,11 +51,6 @@ namespace job
 		public List<Creature> creatures = new List<Creature>();
 		public void Init()
 		{
-			for (int i = 0; i < 3; i++)
-			{
-				creatures.Add(new Monkey());
-			}
-
 			creatures.Add(new Monkey());
 			creatures.Add(new Monkey());
 			creatures.Add(new Monkey());
